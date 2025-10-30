@@ -776,6 +776,7 @@ main {
 .article-title { margin-bottom: 30px; }
 
 
+
 /**
  * education and experience 
  */
@@ -787,6 +788,43 @@ main {
   align-items: center;
   gap: 15px;
   margin-bottom: 25px;
+}
+
+.timeline .title-wrapper .download-btn {
+  margin-left: auto;
+  margin-top: 0;      /* align vertically with the title */
+  margin-bottom: 0;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  /* background-color: #facc15; yellow accent */
+  background-color: #eab308; 
+  color: #1e1e1e;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+  font-size: 0.95rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.download-btn:hover {
+  /* background-color: #e6b521; */
+  /* transform: translateY(-2px); */
+  color: #eab308; 
+  background-color: #1e1e1e;
+  /* border: #eab308 1px solid; */
+}
+
+.download-btn ion-icon {
+  font-size: 1.2rem;
+  vertical-align: middle;
 }
 
 .timeline-list {
