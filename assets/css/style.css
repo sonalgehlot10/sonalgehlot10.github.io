@@ -222,8 +222,8 @@ article.active {
 
 .h2,
 .h3,
-.h4,
-.h5 {
+.h4
+{
   color: var(--white-2);
   text-transform: capitalize;
 }
@@ -235,8 +235,10 @@ article.active {
 .h4 { font-size: var(--fs-4); }
 
 .h5 {
-  font-size: var(--fs-7);
-  font-weight: var(--fw-500);
+  font-size: 13px;
+  color: var(--white-2);
+  font-weight: 5px;
+
 }
 
 .article-title {
