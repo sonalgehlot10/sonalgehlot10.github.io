@@ -876,6 +876,14 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.timeline-text li {
+  list-style: disc;
+  margin-bottom: 0.55rem;
+  padding-left: 0.2rem;
 }
 
 
