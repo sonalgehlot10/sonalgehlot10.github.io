@@ -542,6 +542,13 @@ main {
   z-index: 1;
 }
 
+.service-item-link {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+}
+
 .service-item::before {
   content: "";
   position: absolute;
